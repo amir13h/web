@@ -9,9 +9,4 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  on: boolean = true;
-  title = 'web';
-  click() {
-    this.on=!this.on;
-  }
 }

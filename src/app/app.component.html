@@ -1,6 +1,4 @@
 <div class="mein">
-  <button class="menu" (click)="click()">⋮</button>
-  @if (on==true) {
     <nav>
       <a routerLink="/home">Home</a>
       <a routerLink="/about">About</a>
@@ -10,7 +8,6 @@
       <a routerLink="/login">LogIn</a>
       <a routerLink="/signup">SignUp</a>
     </nav>
-  }
   <div class="content">
     <router-outlet></router-outlet>
   </div>
