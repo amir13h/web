@@ -53,11 +53,14 @@
     text-align: center;
   }
   .mein nav a {
-    font-size: 14px;
+    font-size: 8px;
     padding: 8px 10px;
     font-size: 30px;
   }
   .mein .content {
     padding: 10px;
+  }
+  .mein .menu {
+    display: block;
   }
 }
