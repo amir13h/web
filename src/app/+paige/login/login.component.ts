@@ -8,5 +8,15 @@ import { Component } from '@angular/core';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
+  message:string=''
+  click(userName:string,password:string) {
+    if (userName=='admin' && password=='admin') {
+      this.message='welcome✌️'
+    }
+    else{
+      this.message='Username or password is incorrect❌'
+    }
+    alert(this.message);
+  }
 
 }

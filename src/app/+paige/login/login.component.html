@@ -1,5 +1,5 @@
 <div>
-    <input type="text" placeholder="UserName">
-    <input type="password" placeholder="Password">
-    <button title="LogIn">LogIn</button>
+    <input #in type="text" placeholder="UserName">
+    <input #in1 type="password" placeholder="Password">
+    <button (click)="click(in.value,in1.value)" title="LogIn">LogIn</button>
 </div>
